@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "个人工作生活台 —— 只在本机浏览器运行的一体化工作/生活工作台",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "personal",
+    "dashboard",
+    "local-first",
+    "productivity"
+  ],
+  "license": "MIT"
+}

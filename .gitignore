@@ -1,0 +1,15 @@
+# 运行期数据：绝不提交（这是用户自己的真实数据）
+data/
+# 依赖（本项目零运行时依赖，保留以防万一）
+node_modules/
+# 日志与临时文件
+*.log
+*.tmp
+tmp/
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+# 编辑器
+.vscode/
+.idea/

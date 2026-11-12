@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>个人工作生活台</title>
+    <meta name="description" content="只在本机运行的个人工作与生活一体化工作台，数据保存在本地文件。" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%232C6353'/%3E%3Cpath d='M9 22V10h3.2v9.2H23V22H9Z' fill='%23F5F3EE'/%3E%3Ccircle cx='22' cy='11' r='2.4' fill='%23D8A05F'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles/app.css" />
+  </head>
+  <body>
+    <div id="app" class="shell">
+      <aside id="sidebar" class="sidebar" aria-label="主导航"></aside>
+      <div class="main-col">
+        <header id="topbar" class="topbar"></header>
+        <main id="view" class="view" tabindex="-1"></main>
+        <footer id="statusbar" class="statusbar"></footer>
+      </div>
+    </div>
+
+    <div id="modal-root" class="modal-root" hidden></div>
+    <div id="toast-root" class="toast-root" aria-live="polite" aria-atomic="true"></div>
+
+    <noscript>这个应用需要启用 JavaScript 才能使用。</noscript>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>
