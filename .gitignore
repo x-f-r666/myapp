@@ -13,3 +13,5 @@ desktop.ini
 # 编辑器
 .vscode/
 .idea/
+# 本地助手工作目录（含个人上下文）
+.workbuddy/
